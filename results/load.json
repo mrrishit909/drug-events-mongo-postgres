@@ -1,0 +1,19 @@
+{
+  "mongodb": {
+    "documents": 422456,
+    "load_seconds": 6.4,
+    "index_seconds": 3.9,
+    "data_mb": 473.9,
+    "storage_mb": 84.2,
+    "index_mb": 24.4
+  },
+  "postgresql": {
+    "reports": 422456,
+    "drug_rows": 1918159,
+    "reaction_rows": 1394727,
+    "load_seconds": 29.3,
+    "index_seconds": 5.0,
+    "table_mb": 355.7,
+    "index_mb": 282.0
+  }
+}
