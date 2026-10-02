@@ -1,0 +1,16 @@
+{
+  "reports": "422456",
+  "pct_serious": "54.6",
+  "pct_death": "6.7",
+  "drug_rows_role4": "548",
+  "pct_drug_rows_openfda_name": "81.6",
+  "mean_drugs_per_report": "4.54",
+  "max_drugs_per_report": "3902",
+  "mean_reactions_per_report": "3.30",
+  "suspect_drugs": "5242",
+  "reaction_terms": "12918",
+  "pairs_with_3_reports": "113416",
+  "signals": "70314",
+  "reports_over_5_suspects": "9271",
+  "max_suspect_rows_in_one_report": "2738"
+}

@@ -1,0 +1,7 @@
+{
+  "pairs_sql": 113416,
+  "pairs_mongo": 113416,
+  "pairs_that_differ": 0,
+  "sql_signal_seconds": 75.1,
+  "mongo_pair_count_seconds": 4.7
+}

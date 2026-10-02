@@ -1,0 +1,5 @@
+question,mongodb_ms,postgresql_ms
+one full report by id,0.27,0.28
+reports: suspect drug X with reaction Y,2.14,2.04
+all reaction counts for one drug,42.55,229.4
+count every drug-reaction pair,4671.0,5916.0
