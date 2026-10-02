@@ -14,6 +14,6 @@ case "$1" in
     echo "postgres :5435, mongodb :27018";;
   stop)
     $BIN/pg_ctl -D data/pgdata stop >/dev/null || true
-    $BIN/mongod --dbpath data/mongodata --shutdown >/dev/null || true
+    [ -s data/mongodata/mongod.lock ] && kill "$(cat data/mongodata/mongod.lock)" 2>/dev/null || true   # --shutdown is Linux-only
     echo stopped;;
 esac
