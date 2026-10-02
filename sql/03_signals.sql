@@ -5,7 +5,7 @@
 --   other drugs   c            d
 -- PRR = [a/(a+b)] / [c/(c+d)];  ROR = ad/bc with a 95% CI;  signal (Evans 2001): a >= 3, PRR >= 2, chi-square >= 4.
 -- Counts are reports, not rows: a report naming a drug twice, or a reaction twice, counts once.
--- Reports naming more than 5 distinct suspect drugs (2.2%; one lists 1,406 suspect rows) are left out of the main
+-- Reports naming more than 5 distinct suspect drugs (2.2%; one lists 2,738 suspect rows) are left out of the main
 -- screen: each pairs every drug with every reaction and they produced most of the signals. screen_sensitivity keeps both.
 DROP TABLE IF EXISTS pair, signal, screen_sensitivity;
 CREATE TABLE pair AS
